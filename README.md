@@ -1,11 +1,16 @@
 
 ## LeetCode
 Solved -
-1. Two Sum - https://leetcode.com/problems/two-sum/
+1.  Two Sum - https://leetcode.com/problems/two-sum/
     suggestions -
-        green https://leetcode.com/problems/two-sum-iii-data-structure-design/
+2.  green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+    suggestions -
+        green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+        yellow https://leetcode.com/problems/k-diff-pairs-in-an-array/
+        yellow https://leetcode.com/problems/finding-pairs-with-a-certain-sum/
+
+    s1.    green https://leetcode.com/problems/two-sum-iii-data-structure-design/
         green https://leetcode.com/problems/two-sum-less-than-k/
-        green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
         green https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
         green https://leetcode.com/problems/first-letter-to-appear-twice/
         yellow https://leetcode.com/problems/3sum/
