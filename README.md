@@ -3,10 +3,22 @@
 Solved -
 1.  Two Sum - https://leetcode.com/problems/two-sum/
     suggestions -
-2.  green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+2. Two Sum IV - Input is a BST - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+    question: right after recursion append into array, will reduce time complexity ?
     suggestions -
-        green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
-        yellow https://leetcode.com/problems/k-diff-pairs-in-an-array/
+        Green https://leetcode.com/problems/two-sum-iii-data-structure-design/
+        yellow https://leetcode.com/problems/two-sum-bsts/
+        yellow https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
+3.  green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+    suggestions -
+4.  green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+    suggestions -
+||| green https://leetcode.com/problems/next-greater-element-i/
+    yellow https://leetcode.com/problems/array-of-doubled-pairs/
+    yellow https://leetcode.com/problems/add-minimum-number-of-rungs/
+
+    s3. yellow https://leetcode.com/problems/k-diff-pairs-in-an-array/
         yellow https://leetcode.com/problems/finding-pairs-with-a-certain-sum/
 
     s1.    green https://leetcode.com/problems/two-sum-iii-data-structure-design/
@@ -23,12 +35,7 @@ Solved -
         red https://leetcode.com/problems/number-of-excellent-pairs/
         
 
-2. Two Sum IV - Input is a BST - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-    question: right after recursion append into array, will reduce time complexity ?
-    suggestions -
-        Green https://leetcode.com/problems/two-sum-iii-data-structure-design/
-        yellow https://leetcode.com/problems/two-sum-bsts/
-        yellow https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
 
 
 Topics Covered - Recursion, LinkedList and Traversal, Tree Orders, BST, array
