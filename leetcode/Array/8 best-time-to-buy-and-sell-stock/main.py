@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+# refernce https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
 class Solution:
     def maxProfit(self, prices):
         prices_size = len(prices)
