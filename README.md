@@ -14,7 +14,7 @@ Solved -
     suggestions -
 4.  green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
     suggestions -
-||| green https://leetcode.com/problems/next-greater-element-i/
+5. green https://leetcode.com/problems/next-greater-element-i/
     yellow https://leetcode.com/problems/array-of-doubled-pairs/
     yellow https://leetcode.com/problems/add-minimum-number-of-rungs/
 
