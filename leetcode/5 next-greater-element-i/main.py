@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/next-greater-element-i/
 class Solution:
     def nextGreaterElement(self, nums1, nums2):
         answer = -1

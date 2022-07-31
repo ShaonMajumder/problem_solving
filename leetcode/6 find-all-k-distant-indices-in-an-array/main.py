@@ -1,9 +1,16 @@
+# https://leetcode.com/problems/find-all-k-distant-indices-in-an-array
 class Solution:
     def findKDistantIndices(self, nums, key, k):
+        def checkJs(i,js,k):
+            for b in js:
+                if abs(i - b) <= k:
+                    return True
+            return False
+            
         answers = []
         js = [i for i in range( len(nums) ) if nums[i] == key]
         for i in range(len(nums)):
-            if True in map(lambda b: abs(i - b) <= k , js ):
+            if checkJs(i,js,k):
                 answers.append(i)
         return answers
 

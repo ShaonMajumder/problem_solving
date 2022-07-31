@@ -24,7 +24,7 @@ Solved -
     s1.    green https://leetcode.com/problems/two-sum-iii-data-structure-design/
         green https://leetcode.com/problems/two-sum-less-than-k/
 6. green https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
-        green https://leetcode.com/problems/first-letter-to-appear-twice/
+7. green https://leetcode.com/problems/first-letter-to-appear-twice/
         yellow https://leetcode.com/problems/3sum/
         yellow https://leetcode.com/problems/4sum/
         yellow https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
