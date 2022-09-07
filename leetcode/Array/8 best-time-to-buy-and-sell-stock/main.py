@@ -1,7 +1,16 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 # refernce https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+# import math
 class Solution:
     def maxProfit(self, prices):
+        # mn = math.inf
+        # mx = 0
+        # LN = len(prices)
+        # for i in range(0, LN):
+        #     mn = min(mn, prices[i])
+        #     mx = max(mx, prices[i] - mn)
+        # return mx
+
         prices_size = len(prices)
         if prices_size > 1:
             max_diff = prices[1] - prices[0]
