@@ -35,5 +35,6 @@ Solved -
         red https://leetcode.com/problems/number-of-excellent-pairs/
         
 8. easy array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+9. https://leetcode.com/problems/merge-sorted-array/
 
 Topics Covered - Recursion, LinkedList and Traversal, Tree Orders, BST, array
