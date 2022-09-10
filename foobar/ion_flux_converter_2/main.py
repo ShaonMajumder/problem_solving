@@ -8,32 +8,32 @@ class Node:
         self.right = None
         self.val = key
   
-def printInorder(root):
+def getInorder(root):
     arr = []
     if root:
-        arr = arr + printInorder(root.left)
+        arr = arr + getInorder(root.left)
         arr = arr + [root.val]
-        arr = arr + printInorder(root.right)
+        arr = arr + getInorder(root.right)
         return arr
     else:
         return []
   
-def printPostorder(root):
+def getPostorder(root):
     arr = []
     if root:
-        arr = arr + printPostorder(root.left)
-        arr = arr + printPostorder(root.right)
+        arr = arr + getPostorder(root.left)
+        arr = arr + getPostorder(root.right)
         arr = arr + [root.val]
         return arr
     else:
         return []
   
-def printPreorder(root):
+def getPreorder(root):
     arr = []
     if root:
         arr = arr + [root.val]
-        arr = arr + printPreorder(root.left)
-        arr = arr + printPreorder(root.right)
+        arr = arr + getPreorder(root.left)
+        arr = arr + getPreorder(root.right)
         return arr
     else:
         return []
@@ -101,7 +101,7 @@ def isBalanced(root):
     # in this case
     else:
         return max(lh, rh) + 1
-        
+
 def print_tree(root, val="val", left="left", right="right"):
     def display(root, val=val, left=left, right=right):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
@@ -152,15 +152,6 @@ def print_tree(root, val="val", left="left", right="right"):
     for line in lines:
         print(line)
 
-# printPreorder(tree)
-# Driver code
-root = Node(7)
-root.left = Node(3)
-root.right = Node(6)
-root.left.left = Node(1)
-root.left.right = Node(2)
-root.right.left = Node(4)
-root.right.right = Node(5)
 
 def getPerfectBinaryTree(height):
     def tree(key,height):
@@ -183,13 +174,13 @@ def getPerfectBinaryTree(height):
 trees = getPerfectBinaryTree(5)
 print_tree(trees)
 # print(trees)
-order = printPreorder(trees)
+order = getPreorder(trees)
 
 print(order.index(19)+1)
 
 # print("Preorder traversal of binary tree is")
-# printPreorder(root)
+# getPreorder(root)
 # print("\nInorder traversal of binary tree is")
-# printInorder(root)
+# getInorder(root)
 # print("\nPostorder traversal of binary tree is")
-# printPostorder(root)
+# getPostorder(root)
