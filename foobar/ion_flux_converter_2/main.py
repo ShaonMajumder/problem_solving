@@ -1,6 +1,7 @@
 from multiprocessing import parent_process
 from platform import node
 
+import math
 
 class Node:
     def __init__(self, key):
@@ -102,7 +103,7 @@ def isBalanced(root):
     else:
         return max(lh, rh) + 1
 
-def print_tree(root, val="val", left="left", right="right"):
+def draw_tree(root, val="val", left="left", right="right"):
     def display(root, val=val, left=left, right=right):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
         # No child.
@@ -168,15 +169,21 @@ def getPerfectBinaryTree(height):
             return Node(key)
             
     # 2**height - 1
-    return tree(2**height - 1,height)
+    return tree( totalNodeCountPerfectBinaryTree(height) ,height)
     
+def leafNodeCountPerfectBinaryTree(height):
+    return 2**(height - 1)
 
-trees = getPerfectBinaryTree(5)
-print_tree(trees)
-# print(trees)
-order = getPreorder(trees)
+def totalNodeCountPerfectBinaryTree(height):
+    return 2**height - 1
 
-print(order.index(19)+1)
+trees = getPerfectBinaryTree(4)
+draw_tree(trees)
+order = getInorder(trees)
+
+
+
+# print(order.index(14))
 
 # print("Preorder traversal of binary tree is")
 # getPreorder(root)
@@ -184,3 +191,23 @@ print(order.index(19)+1)
 # getInorder(root)
 # print("\nPostorder traversal of binary tree is")
 # getPostorder(root)
+
+# is left
+# 2**height - 1 = ParentNode
+# ParentNode + 1 = 2**height
+def element_is_left(key):
+    # key + 1 = 2**height
+    log_ = math.log(key+1,2)
+    # is a whole number ?
+    return log_.is_integer()
+
+print( element_is_left(4) )
+
+# def element_is_right():
+# def label
+def solution( h, q):
+    for i in q:
+        if 2**h - 1 == i:
+            return -1
+            
+print( solution(3 , [7]) )
