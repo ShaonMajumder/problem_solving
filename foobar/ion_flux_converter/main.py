@@ -73,3 +73,9 @@ h = 3
 while h > 0:
     print(2**h - 1)
     h-=1
+# https://stackoverflow.com/questions/28846377/what-is-the-difference-btw-order-and-degree-in-terms-of-tree-data-structure
+# https://www.google.com/search?q=nodes+of+binary+tree&oq=nodes+of+bi&aqs=chrome.0.0i20i263i512j0i512l2j69i57j0i15i22i30l2j0i22i30l4.6594j1j7&sourceid=chrome&ie=UTF-8
+# https://www.andrew.cmu.edu/course/15-121/lectures/Trees/trees.html#:~:text=A%20binary%20tree%20is%20made,node%20is%20called%20a%20parent.
+# https://www.geeksforgeeks.org/level-order-tree-traversal/
+# https://towardsdatascience.com/google-foobar-challenge-level-1-3487bb252780
+# https://www.quora.com/What-is-the-use-of-pre-order-and-post-order-traversal-of-binary-trees-in-computing
