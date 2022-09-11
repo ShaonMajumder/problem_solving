@@ -192,64 +192,54 @@ order = getInorder(trees)
 
 
 
-
-# is left
-# 2**height - 1 = ParentNode
-# ParentNode + 1 = 2**height
-def element_is_left(key):
-    # key + 1 = 2**height
-    log_ = math.log(key+1,2)
-    # is a whole number ?
-    if log_.is_integer():
-        return True
-    elif( (key >> 1) % 2 == 0):
-        # Just before becoming a perfect power of 2, if node was equal to 2 * x, then it was right child.
-        return False
-    else:
-        return True
-
-
-
-# 2**height - 1 = ParentNode
-# ParentNode + 1 = 2**height
-# logof2(node + 1) = height
-# Thus if node + 1 is perfect power of 2 then we can find out the height easily. 
-# (No need to take log base 2, just see the number of bits after converting to binary).
-def getHeightOfConverter(node):
-    # print(f"getHeightOfConverter({node})")
-    k = math.log(node + 1, 2) 
-    # print(f"k={k}")
-    if k.is_integer():
-        return k
-    else:
-        i = math.floor( math.log(node,2))
-        x = 2**i - 1
-        return getHeightOfConverter(node - x)
-    
-    
-
-
-
-
-def solution(h,q):
-    
-    def func(node):
-
-        node_height = getHeightOfConverter(node)
-        if node_height == h:
-            return -1
-        
-        if element_is_left(node):
-            node_label = 2**node_height + node
+def solution(h, q):
+    # Your code here
+    # 2**height - 1 = ParentNode
+    # ParentNode + 1 = 2**height
+    # logof2(node + 1) = height
+    # Thus if node + 1 is perfect power of 2 then we can find out the height easily. 
+    # (No need to take log base 2, just see the number of bits after converting to binary).
+    def getHeightOfConverter(node):
+        # print(f"getHeightOfConverter({node})")
+        k = math.log(node + 1, 2) 
+        # print(f"k={k}")
+        if k.is_integer():
+            return k
         else:
-            node_label = node + 1
+            i = math.floor( math.log(node,2))
+            x = 2**i - 1
+            return getHeightOfConverter(node - x)
+    
+    # 2**h - 1
+    def converter_is_left(converter):
+        converter_height = getHeightOfConverter(converter)
+        parent_height_from_right_child = getHeightOfConverter(converter+1)
+        if converter_height + 1 == parent_height_from_right_child:
+            return False
+        else:
+            parent_height_from_left_child = getHeightOfConverter(converter + 2**converter_height)
+            if converter_height + 1 == parent_height_from_left_child:
+                return True
 
-        return int(node_label)
-    return [ func(i) for i in q]
+    def helper(converter):
+        converter_height = getHeightOfConverter(converter)
+        if converter_height == h:
+            return -1
+        if converter_is_left(converter):
+            converter_label = 2**converter_height + converter
+        else:
+            converter_label = converter + 1
+        return int(converter_label)
+        
+    return [ helper(i) for i in q]
 
-print(solution(3,[1,4,7]))
-print(solution(5,[19, 14, 28]))
-print( element_is_left(14) )
+print( solution(3, [7, 3, 5, 1]) )
+print( solution(5, [19, 14, 28]) )
+# print( element_is_left(14) )
+
+
+
+
 
 # Just before becoming a perfect power of 2, if node was equal to 2 * x, then it was right child.
 
