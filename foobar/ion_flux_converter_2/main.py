@@ -153,19 +153,10 @@ def draw_tree(root, val="val", left="left", right="right"):
     for line in lines:
         print(line)
 
-# print(order.index(14))
-
-# print("Preorder traversal of binary tree is")
-# getPreorder(root)
-# print("\nInorder traversal of binary tree is")
-# getInorder(root)
-# print("\nPostorder traversal of binary tree is")
-# getPostorder(root)
 
 def getPerfectBinaryTree(height):
     def tree(key,height):
         # print(f"call tree({key},{height})")
-        
         if height > 1:
             height-=1
             root = Node(key)
@@ -193,12 +184,6 @@ order = getInorder(trees)
 
 
 def solution(h, q):
-    # Your code here
-    # 2**height - 1 = ParentNode
-    # ParentNode + 1 = 2**height
-    # logof2(node + 1) = height
-    # Thus if node + 1 is perfect power of 2 then we can find out the height easily. 
-    # (No need to take log base 2, just see the number of bits after converting to binary).
     def getHeightOfConverter(node):
         # print(f"getHeightOfConverter({node})")
         k = math.log(node + 1, 2) 
@@ -232,19 +217,3 @@ def solution(h, q):
         return int(converter_label)
         
     return [ helper(i) for i in q]
-
-print( solution(3, [7, 3, 5, 1]) )
-print( solution(5, [19, 14, 28]) )
-# print( element_is_left(14) )
-
-
-
-
-
-# Just before becoming a perfect power of 2, if node was equal to 2 * x, then it was right child.
-
-
-
-
-
-
