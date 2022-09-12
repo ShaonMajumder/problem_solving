@@ -1,3 +1,11 @@
 linkedlist
+
 BST
+BFS
 DFS
+
+preorder traversal
+postorder
+inorder
+levelorder
+
