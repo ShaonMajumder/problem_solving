@@ -1,6 +1,8 @@
 
 ## LeetCode
 Solved -
+
+Array
 1.  Two Sum - https://leetcode.com/problems/two-sum/
     suggestions -
 2. Two Sum IV - Input is a BST - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
@@ -37,4 +39,13 @@ Solved -
 8. easy array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 9. https://leetcode.com/problems/merge-sorted-array/
 
+Binary-Tree
+10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
+
+ToDO: Check other solutions - https://leetcode.com/problems/binary-tree-inorder-traversal/solution/
+
+
+
+
 Topics Covered - Recursion, LinkedList and Traversal, Tree Orders, BST, array
+
