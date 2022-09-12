@@ -18,6 +18,8 @@ Array
 
 Binary-Tree( and Recursion )
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
+11. Binary Tree Preorder Traversal - E - https://leetcode.com/problems/binary-tree-preorder-traversal/ 
+12. Binary Tree Postorder Traversal - E - https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 ## Topics Covered
 1. Array
@@ -28,7 +30,8 @@ Binary-Tree( and Recursion )
     3.2 preorder Traversal
     3.3 inorder Traversal
     3.4 postorder Traversal
-    3.5 levelorder Traversal
+    3.5 Generic Trees(N-ary Trees)
+    3.6 Need Revise : levelorder Traversal
 
 4. Need Revise : LinkedList and Traversal
 5. Need Revise : BST

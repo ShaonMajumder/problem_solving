@@ -8,27 +8,27 @@ class Node:
 # A function to do preorder tree traversal
 def getPreorder(root):
     if root:
-        print(root.val),
-        getPreorder(root.left)
-        getPreorder(root.right)
+        return [root.val] + getPreorder(root.left) + getPreorder(root.right)
+    else:
+        return []
 
 # A function to do inorder tree traversal
 def getInorder(root):
     if root:
-        getInorder(root.left)
-        print(root.val)
-        getInorder(root.right)
+        return getInorder(root.left) + [root.val] + getInorder(root.right)
+    else:
+        return []
   
   
 # A function to do postorder tree traversal
 def getPostorder(root):
     if root:
-        getPostorder(root.left)
-        getPostorder(root.right)
-        print(root.val)
+        return getPostorder(root.left) + getPostorder(root.right) + [root.val]
+    else:
+        return []
   
   
-def height(node):
+def getHeight(node):
     if node is None:
         return 0
     else:
@@ -75,13 +75,13 @@ root.right.left = Node(4)
 root.right.right = Node(5)
 
 print("Preorder traversal of binary tree is")
-getPreorder(root)
+print(getPreorder(root))
 
 print("\nInorder traversal of binary tree is")
-getInorder(root)
+print(getInorder(root))
   
 print ("\nPostorder traversal of binary tree is")
-getPostorder(root)
+print(getPostorder(root))
 
 print( "Height")
-print(height(root))
+print(getHeight(root))
