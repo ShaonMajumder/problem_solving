@@ -31,6 +31,7 @@ Binary-Tree( and Recursion )
     3.3 inorder Traversal
     3.4 postorder Traversal
     3.5 Generic Trees(N-ary Trees)
+        https://www.geeksforgeeks.org/generic-treesn-array-trees/
     3.6 Need Revise : levelorder Traversal
 
 4. Need Revise : LinkedList and Traversal
