@@ -84,4 +84,10 @@ print ("\nPostorder traversal of binary tree is")
 print(getPostorder(root))
 
 print( "Height")
+<<<<<<< HEAD
+print(height(root))
+
+# level order binary tree
+=======
 print(getHeight(root))
+>>>>>>> d06370b0f6b2a14f700c4a091ec3e66f70e2e478
