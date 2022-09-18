@@ -1,0 +1,36 @@
+Ans of 1
+--------
+<?php
+function max_successive($nums){
+    $count = 0;
+    $max_count = 0;
+    $previous_value = 0;
+    foreach($nums as $num){
+        if ($num == 1){
+            $count++;
+        }else if($num == 0 && $previous_value == 1){
+            if( $max_count < $count) {
+                $max_count = $count;
+            }
+            $count = 0;
+        }
+        $previous_value = $num;
+    }
+    if( $max_count < $count) {
+        $max_count = $count;
+    }
+    return $max_count;
+}
+$nums = [1,1,1,0,0,1,1,1,1];
+echo max_successive($nums);
+?>
+
+
+Answer of 2
+-----------
+SELECT user.user_id, user.fast_name,user.last_name,AVG(test_result.correct),test_result.time_taken
+FROM user
+LEFT JOIN test_result
+ON user.user_id = test_result.user_id
+GROUP BY test_result.correct
+ORDER BY test_result.time_taken DESC;
