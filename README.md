@@ -23,7 +23,7 @@ Binary-Tree( and Recursion )
 13. N-ary Tree Postorder Traversal - E - https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 14. N-ary Tree Preorder Traversal - E - https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 15. Maximum Depth of N-ary Tree - E - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
-
+16. Maximum Depth of Binary Tree - E - https://leetcode.com/problems/maximum-depth-of-binary-tree/
 ## Topics Covered
 1. Array
 2. Recursion
