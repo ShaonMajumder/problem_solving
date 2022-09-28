@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/n-ary-tree-level-order-traversal/submissions/
 
 # Definition for a Node.
 class Node:
@@ -9,13 +10,15 @@ class Node:
 class Solution:
     def postorder(self, root):
         childrens=[]
-        if root:
-            if root.children:
-                for x in root.children:
-                    childrens = childrens + self.postorder(x)
-            return childrens + [root.val]
+        
+        if root.children:
+             
+            childrens = [root.val]
+            childrens.append( [self.postorder(x) for x in root.children] )
+            print(childrens)
+            return childrens
         else:
-            return []
+            return root.val
         
 
 
