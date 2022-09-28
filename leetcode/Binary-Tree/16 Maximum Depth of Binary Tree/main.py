@@ -7,16 +7,14 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
-        def depth(root,n):
-            if root:
-                n = n + 1
-                lefth = depth(root.left,n)
-                righth = depth(root.right,n)
-                if lefth > righth:
-                    return lefth
-                else:
-                    return righth   
+    def maxDepth(self, root: Optional[TreeNode], n = 0) -> int:
+        if root:
+            n = n + 1
+            lefth = self.maxDepth( root.left,n)
+            righth = self.maxDepth( root.right,n)
+            if lefth > righth:
+                return lefth
             else:
-                return n
-        return depth(root,0)
+                return righth   
+        else:
+            return n
