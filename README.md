@@ -1,5 +1,6 @@
 
 ## LeetCode
+Goal : FANG
 Solved -
 
 Array
@@ -54,6 +55,9 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 
 4. Need Revise : LinkedList and Traversal
 5. Need Revise : BST
+
+Content :
+https://www.youtube.com/watch?v=NXQi_g1pVqI
 
 Read -
 https://www.programiz.com/dsa/dynamic-programming
