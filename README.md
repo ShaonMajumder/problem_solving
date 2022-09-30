@@ -17,7 +17,7 @@ Array
 8. easy array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 9. https://leetcode.com/problems/merge-sorted-array/
 
-Binary-Tree( and Recursion )
+Binary-Tree and Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
 11. Binary Tree Preorder Traversal - E - https://leetcode.com/problems/binary-tree-preorder-traversal/ 
 12. Binary Tree Postorder Traversal - E - https://leetcode.com/problems/binary-tree-postorder-traversal/
