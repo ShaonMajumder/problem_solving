@@ -23,6 +23,7 @@ Binary-Tree( and Recursion )
 12. Binary Tree Postorder Traversal - E - https://leetcode.com/problems/binary-tree-postorder-traversal/
 16. Maximum Depth of Binary Tree - E - https://leetcode.com/problems/maximum-depth-of-binary-tree/
 17. Minimum Depth of Binary Tree - E - https://leetcode.com/problems/minimum-depth-of-binary-tree/
+18. Balanced Binary Tree - E - https://leetcode.com/problems/balanced-binary-tree/
 
 N-ary Tree( and Recursion)
 13. N-ary Tree Postorder Traversal - E - https://leetcode.com/problems/n-ary-tree-postorder-traversal/
@@ -31,7 +32,6 @@ N-ary Tree( and Recursion)
 
 
 Suggestions -
-E https://leetcode.com/problems/balanced-binary-tree/
 E https://leetcode.com/problems/climbing-stairs/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
@@ -58,8 +58,6 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 
 Content :
 https://www.youtube.com/watch?v=NXQi_g1pVqI
-
-Read -
 https://www.programiz.com/dsa/dynamic-programming
 
 Have to Read -
