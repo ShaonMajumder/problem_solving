@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/maximum-depth-of-n-ary-tree
 # Definition for a Node.
 class Node:
     def __init__(self, val=None, children=None):
@@ -20,7 +21,10 @@ class Solution:
                         return arr
                 else:
                     n = n + 1
-                    return [n]
+                    if n == 1:
+                        return n
+                    else:
+                        return [n]
             else:
                 if n == 0:
                     return 0
