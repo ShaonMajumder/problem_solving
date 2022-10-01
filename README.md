@@ -1,15 +1,17 @@
 
 ## LeetCode
-Goal : FANG
-Mention space & Time Complexity
-Solved -
+Goal : FANG (DSA SE)
+Tips : Mention space & Time Complexity
+
+LeetCode is For DSA
+HackerRank is For Certification
+
+Solved Sheet - https://docs.google.com/spreadsheets/d/1CZmDRRb9tMh1ilu6AoOSkAcCJnYHA_7kHaxmCrHZWZw/
+Solved List on Given Below -
 
 Array
-1.  Two Sum - https://leetcode.com/problems/two-sum/
-    suggestions -
-2. Two Sum IV - Input is a BST - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-    question: right after recursion append into array, will reduce time complexity ?
-    suggestions -
+1. Two Sum - E - https://leetcode.com/problems/two-sum/
+2. Two Sum IV - Input is a BST - E - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 3.  green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 4.  green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
 5. green https://leetcode.com/problems/next-greater-element-i/
@@ -77,7 +79,7 @@ Recursion
 1. https://www.hackerrank.com/challenges/py-hello-world/submissions/code/266609243
 
 Have To Follow
-https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/
+https://docs.google.com/spreadsheets/d/1_AwSiXZp-fwo2-yNCahax56k0Jmc5xOCb2ADYUXGXs4
 https://leadcoding.in/dsa-sheet/
 
 Suggestions -
@@ -175,3 +177,16 @@ trie
 
 Distar
 belmenford
+
+Terms
+-------
+Recursion
+Function Call Stacks or Call Stacks (Last In Fast Out LIFO)
+
+Interview Question -
+Nested Function - A function inside a function is called a Nested function.
+Callback function -
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+Dependency Injection -
+Recursion Tree - Recursion Tree Method is a pictorial representation of an iteration method which is in the form of a tree where at each level nodes are expanded.
+
