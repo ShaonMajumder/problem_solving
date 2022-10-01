@@ -1,5 +1,7 @@
 
 ## LeetCode
+Mention space & Time Complexity
+
 Solved -
 
 Array
@@ -30,6 +32,8 @@ N-ary Tree( and Recursion)
 
 
 Suggestions -
+https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0
+https://leadcoding.in/dsa-sheet/
 E https://leetcode.com/problems/balanced-binary-tree/
 E https://leetcode.com/problems/climbing-stairs/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
@@ -57,8 +61,11 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 
 Read -
 https://www.programiz.com/dsa/dynamic-programming
+https://www.youtube.com/watch?v=uOz5S0qZp4w
 
 Have to Read -
+https://www.youtube.com/watch?v=NXQi_g1pVqI
+https://github.com/LeadCoding/3-weeks-Google-Prep
 https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0
 https://www.askpython.com/python/examples/preorder-tree-traversal
 https://www.tutorialspoint.com/python_data_structure/python_tree_traversal_algorithms.htm
@@ -70,3 +77,26 @@ https://leetcode.com/problems/construct-binary-search-tree-from-preorder-travers
 https://www.techiedelight.com/construct-binary-tree-from-inorder-preorder-traversal/
 Construct Tree from given Preorder traversals
 https://www.specbee.com/blogs/introduction-php-standard-recommendation-psr#:~:text=PSR%2D4%20(Autoloading%20Standard)&text=The%20fully%20qualified%20class%20name%20MUST%20have%20a%20terminating%20class,combination%20of%20lowercase%20and%20uppercase.
+
+
+Shyllabus For Fang
+==================
+Indentify you weak areas
+Manage Time
+Fix your sleeping schedule
+
+Sleep early
+Exercise to remove idleness
+Then study at early morning
+
+Sylabus Topics
+==============
+Graph ( and its subtopics,  DIJKSTRA's algorithm)
+segment tree,  
+digit dp,  
+string matching, 
+trie 
+
+
+Distar
+belmenford
