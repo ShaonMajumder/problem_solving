@@ -1,6 +1,7 @@
 
 ## LeetCode
 Goal : FANG
+Mention space & Time Complexity
 Solved -
 
 Array
@@ -17,22 +18,33 @@ Array
 8. easy array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 9. https://leetcode.com/problems/merge-sorted-array/
 
-Binary-Tree and Recursion
+Binary-Tree - partially touched Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
 11. Binary Tree Preorder Traversal - E - https://leetcode.com/problems/binary-tree-preorder-traversal/ 
 12. Binary Tree Postorder Traversal - E - https://leetcode.com/problems/binary-tree-postorder-traversal/
 16. Maximum Depth of Binary Tree - E - https://leetcode.com/problems/maximum-depth-of-binary-tree/
 17. Minimum Depth of Binary Tree - E - https://leetcode.com/problems/minimum-depth-of-binary-tree/
-18. Balanced Binary Tree - E - https://leetcode.com/problems/balanced-binary-tree/
+18. Balanced Binary Tree - E - https://leetcode.com/problems/balanced-binary-tree/ - Related Topics - DFS
 
-N-ary Tree( and Recursion)
-    13. N-ary Tree Postorder Traversal - E - https://leetcode.com/problems/n-ary-tree-postorder-traversal/
-    14. N-ary Tree Preorder Traversal - E - https://leetcode.com/problems/n-ary-tree-preorder-traversal/
-    15. Maximum Depth of N-ary Tree - E - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+N-ary Tree - partially touched Recursion
+13. N-ary Tree Postorder Traversal - E - https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+14. N-ary Tree Preorder Traversal - E - https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+15. Maximum Depth of N-ary Tree - E - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 
+Recursion
+19. Pow(x, n) - M - https://leetcode.com/problems/powx-n/ - Related Topics - Math
+
+Have To Follow
+https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/
+https://leadcoding.in/dsa-sheet/
 
 Suggestions -
 E https://leetcode.com/problems/climbing-stairs/
+E https://leetcode.com/problems/sqrtx/
+M https://leetcode.com/problems/super-pow/
+H https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+H https://leetcode.com/problems/check-for-contradictions-in-equations/
+M https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 https://leetcode.com/problems/the-time-when-the-network-becomes-idle/
@@ -59,8 +71,11 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 Content :
 https://www.youtube.com/watch?v=NXQi_g1pVqI
 https://www.programiz.com/dsa/dynamic-programming
+https://www.youtube.com/watch?v=uOz5S0qZp4w
 
 Have to Read -
+https://www.youtube.com/watch?v=NXQi_g1pVqI
+https://github.com/LeadCoding/3-weeks-Google-Prep
 https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0
 https://www.askpython.com/python/examples/preorder-tree-traversal
 https://www.tutorialspoint.com/python_data_structure/python_tree_traversal_algorithms.htm
@@ -72,3 +87,49 @@ https://leetcode.com/problems/construct-binary-search-tree-from-preorder-travers
 https://www.techiedelight.com/construct-binary-tree-from-inorder-preorder-traversal/
 Construct Tree from given Preorder traversals
 https://www.specbee.com/blogs/introduction-php-standard-recommendation-psr#:~:text=PSR%2D4%20(Autoloading%20Standard)&text=The%20fully%20qualified%20class%20name%20MUST%20have%20a%20terminating%20class,combination%20of%20lowercase%20and%20uppercase.
+
+
+Shyllabus For Fang
+==================
+Indentify you weak areas
+Manage Time
+Fix your sleeping schedule
+
+Sleep early
+Exercise to remove idleness
+Then study at early morning
+
+Sylabus Topics
+==============
+Graph ( and its subtopics,  DIJKSTRA's algorithm)
+segment tree,  
+digit dp,  
+string matching, 
+trie 
+
+
+Distar
+belmenford
+
+
+Shyllabus For Fang
+==================
+Indentify you weak areas
+Manage Time
+Fix your sleeping schedule
+
+Sleep early
+Exercise to remove idleness
+Then study at early morning
+
+Sylabus Topics
+==============
+Graph ( and its subtopics,  DIJKSTRA's algorithm)
+segment tree,  
+digit dp,  
+string matching, 
+trie 
+
+
+Distar
+belmenford
