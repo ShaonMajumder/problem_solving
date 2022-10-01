@@ -34,6 +34,48 @@ N-ary Tree - partially touched Recursion
 Recursion
 19. Pow(x, n) - M - https://leetcode.com/problems/powx-n/ - Related Topics - Math
 
+## HackerRank (40)
+40. https://www.hackerrank.com/challenges/string-validators/submissions/code/274665735
+39. https://www.hackerrank.com/challenges/find-a-string/submissions/code/274663637
+38. https://www.hackerrank.com/challenges/python-mutations/submissions/code/274662368
+37. https://www.hackerrank.com/challenges/whats-your-name/submissions/code/274661824
+36. https://www.hackerrank.com/challenges/find-angle/submissions/code/273310646
+35. https://www.hackerrank.com/challenges/python-lists/submissions/code/273289246
+34. https://www.hackerrank.com/challenges/py-collections-deque/submissions/code/273263697
+33. https://www.hackerrank.com/challenges/text-wrap/submissions/code/273240033
+32. https://www.hackerrank.com/challenges/word-order/submissions/code/273162389
+31. https://www.hackerrank.com/challenges/py-collections-ordereddict/submissions/code/273152350
+30. https://www.hackerrank.com/challenges/swap-case/submissions/code/273031560
+29. https://www.hackerrank.com/challenges/validating-credit-card-number/submissions/code/272905849
+28. https://www.hackerrank.com/challenges/python-tuples/submissions/code/272902674
+27. https://www.hackerrank.com/challenges/maximize-it/submissions/code/272763588
+26. https://www.hackerrank.com/challenges/np-linear-algebra/submissions/code/272758852
+25. https://www.hackerrank.com/challenges/np-polynomials/submissions/code/272756368
+24. https://www.hackerrank.com/challenges/np-inner-and-outer/submissions/code/272755276
+23. https://www.hackerrank.com/challenges/np-dot-and-cross/submissions/code/272626095
+22. https://www.hackerrank.com/challenges/np-mean-var-and-std/submissions/code/272625385
+21. https://www.hackerrank.com/challenges/np-min-and-max/submissions/code/272610589
+20. https://www.hackerrank.com/challenges/np-sum-and-prod/submissions/code/272609526
+19. https://www.hackerrank.com/challenges/floor-ceil-and-rint/submissions/code/272600512
+18. https://www.hackerrank.com/challenges/np-array-mathematics/submissions/code/272581932
+17. https://www.hackerrank.com/challenges/merge-the-tools/submissions/code/270428009
+16. https://www.hackerrank.com/challenges/the-minion-game/submissions/code/269184076
+15. https://www.hackerrank.com/challenges/alphabet-rangoli/submissions/code/269170119
+14. https://www.hackerrank.com/challenges/reduce-function/submissions/code/269169819
+13. https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/submissions/code/269155683
+12. https://www.hackerrank.com/challenges/finding-the-percentage/submissions/code/269150952
+11. https://www.hackerrank.com/challenges/nested-list/submissions/code/267786116
+10. https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/submissions/code/267779645
+9. https://www.hackerrank.com/challenges/list-comprehensions/submissions/code/267776994
+8. https://www.hackerrank.com/challenges/capitalize/submissions/code/267053581
+7. https://www.hackerrank.com/challenges/python-print/submissions/code/267051556
+6. https://www.hackerrank.com/challenges/write-a-function/submissions/code/267050952
+5. https://www.hackerrank.com/challenges/python-loops/submissions/code/266985822
+4. https://www.hackerrank.com/challenges/python-division/submissions/code/266699868
+3. https://www.hackerrank.com/challenges/python-arithmetic-operators/submissions/code/266699697
+2. https://www.hackerrank.com/challenges/py-if-else/submissions/code/266619349
+1. https://www.hackerrank.com/challenges/py-hello-world/submissions/code/266609243
+
 Have To Follow
 https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/
 https://leadcoding.in/dsa-sheet/
