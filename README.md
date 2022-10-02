@@ -12,13 +12,13 @@ Solved List on Given Below -
 Array
 1. Two Sum - E - https://leetcode.com/problems/two-sum/
 2. Two Sum IV - Input is a BST - E - https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-3.  green https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
-4.  green https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
-5. green https://leetcode.com/problems/next-greater-element-i/
-6. green https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
-7. green https://leetcode.com/problems/first-letter-to-appear-twice/
-8. easy array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-9. https://leetcode.com/problems/merge-sorted-array/
+3.  E https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+4.  E https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+5. E https://leetcode.com/problems/next-greater-element-i/
+6. E https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
+7. E https://leetcode.com/problems/first-letter-to-appear-twice/
+8. E array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+9. E https://leetcode.com/problems/merge-sorted-array/
 
 Binary-Tree - partially touched Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
@@ -35,6 +35,8 @@ N-ary Tree - partially touched Recursion
 
 Recursion
 19. Pow(x, n) - M - https://leetcode.com/problems/powx-n/ - Related Topics - Math
+20. Fibonacci Number - E - https://leetcode.com/problems/fibonacci-number/
+21. N-th Tribonacci Number - E - https://leetcode.com/problems/n-th-tribonacci-number/
 
 ## HackerRank (40)
 40. https://www.hackerrank.com/challenges/string-validators/submissions/code/274665735
@@ -116,6 +118,7 @@ Content :
 https://www.youtube.com/watch?v=NXQi_g1pVqI
 https://www.programiz.com/dsa/dynamic-programming
 https://www.youtube.com/watch?v=uOz5S0qZp4w
+https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/
 
 Have to Read -
 https://www.youtube.com/watch?v=NXQi_g1pVqI
@@ -190,3 +193,8 @@ A callback function is a function passed into another function as an argument, w
 Dependency Injection -
 Recursion Tree - Recursion Tree Method is a pictorial representation of an iteration method which is in the form of a tree where at each level nodes are expanded.
 difference between dynamic programming and recursion -
+Height of Recursion Tree (Call Stacks) = Space Complexity of Recursion (6 height, Space O(n))
+Number of Nodes of Recursion Tree = Time Complexity of Recursion (2^6, Time O(2^n))
+
+
+<table><thead><tr><th><strong>Algorithm</strong></th><th colspan="3"><strong>Time Complexity</strong></th><th>Space Complexity</th></tr><tr><th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th><th><strong>Average</strong></th><th><strong>Worst</strong></th><th>&nbsp; &nbsp; &nbsp; Worst</th></tr></thead><tbody><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/selection-sort/">Selection Sort</a></td><td>Ω(n^2)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/bubble-sort/">Bubble Sort</a></td><td>Ω(n)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/insertion-sort/">Insertion Sort</a></td><td>Ω(n)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/heap-sort/">Heap Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/quick-sort/">Quick Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/merge-sort/">Merge Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/bucket-sort-2/">Bucket Sort</a></td><td>Ω(n +k)</td><td>θ(n +k)</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/radix-sort/">Radix Sort</a></td><td>Ω(nk)</td><td>θ(nk)</td><td>O(nk)</td><td>O(n + k)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/counting-sort/">Count Sort</a></td><td>Ω(n +k)</td><td>θ(n +k)</td><td>O(n +k)</td><td>O(k)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/shellsort/">Shell Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/timsort/">Tim Sort</a></td><td>Ω(n)</td><td>θ(n log(n))</td><td>O(n log (n))</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/tree-sort/">Tree Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/sort-the-array-according-to-their-cubes-of-each-element/">Cube Sort</a></td><td>Ω(n)</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(n)</td></tr></tbody></table>
