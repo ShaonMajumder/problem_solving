@@ -38,6 +38,9 @@ Recursion
 20. Fibonacci Number - E - https://leetcode.com/problems/fibonacci-number/
 21. N-th Tribonacci Number - E - https://leetcode.com/problems/n-th-tribonacci-number/
 
+Dynamic Programming
+22. Climbing Stairs - E - https://leetcode.com/problems/climbing-stairs/
+
 ## HackerRank (40)
 40. https://www.hackerrank.com/challenges/string-validators/submissions/code/274665735
 39. https://www.hackerrank.com/challenges/find-a-string/submissions/code/274663637
@@ -97,6 +100,8 @@ https://leetcode.com/problems/the-time-when-the-network-becomes-idle/
 https://leetcode.com/problems/binary-tree-level-order-traversal/
 https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.com/problems/split-array-into-fibonacci-sequence/
+https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 
 ## Topics Covered
 1. Array
@@ -119,6 +124,7 @@ https://www.youtube.com/watch?v=NXQi_g1pVqI
 https://www.programiz.com/dsa/dynamic-programming
 https://www.youtube.com/watch?v=uOz5S0qZp4w
 https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/
+https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
 
 Have to Read -
 https://www.youtube.com/watch?v=NXQi_g1pVqI
