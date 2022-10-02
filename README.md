@@ -19,6 +19,7 @@ Array
 7. E https://leetcode.com/problems/first-letter-to-appear-twice/
 8. E array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 9. E https://leetcode.com/problems/merge-sorted-array/
+23. Majority Element - E - https://leetcode.com/problems/majority-element/
 
 Binary-Tree - partially touched Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
@@ -88,12 +89,17 @@ https://docs.google.com/spreadsheets/d/1_AwSiXZp-fwo2-yNCahax56k0Jmc5xOCb2ADYUXG
 https://leadcoding.in/dsa-sheet/
 
 Suggestions -
-E https://leetcode.com/problems/climbing-stairs/
 E https://leetcode.com/problems/sqrtx/
 M https://leetcode.com/problems/super-pow/
 H https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 H https://leetcode.com/problems/check-for-contradictions-in-equations/
 M https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+E https://leetcode.com/problems/min-cost-climbing-stairs/
+M https://leetcode.com/problems/count-number-of-ways-to-place-houses/
+M https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/
+M https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
+E https://leetcode.com/problems/most-frequent-even-element/
+E https://leetcode.com/problems/majority-element-ii/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 https://leetcode.com/problems/the-time-when-the-network-becomes-idle/
@@ -191,7 +197,6 @@ Terms
 -------
 Recursion
 Function Call Stacks or Call Stacks (Last In Fast Out LIFO)
-
 Interview Question -
 Nested Function - A function inside a function is called a Nested function.
 Callback function -
@@ -202,5 +207,9 @@ difference between dynamic programming and recursion -
 Height of Recursion Tree (Call Stacks) = Space Complexity of Recursion (6 height, Space O(n))
 Number of Nodes of Recursion Tree = Time Complexity of Recursion (2^6, Time O(2^n))
 
+Interview Questions -
+Advantages of Dict over OrderedDict - A dictionary is a simpler data structure that takes up less space and is a bit faster. It only needs to maintain a hash table, while an OrderedDict maintains both a hash table and a linked list.
+If you don't care about the order of keys, go with the simpler option.
+Also not to be overlooked, there's language level support for dicts. It's easy to type {k1: v1, k2: v2}. That's another win for dicts. An unfair one, perhaps, but there you go.
 
 <table><thead><tr><th><strong>Algorithm</strong></th><th colspan="3"><strong>Time Complexity</strong></th><th>Space Complexity</th></tr><tr><th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th><th><strong>Average</strong></th><th><strong>Worst</strong></th><th>&nbsp; &nbsp; &nbsp; Worst</th></tr></thead><tbody><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/selection-sort/">Selection Sort</a></td><td>Ω(n^2)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/bubble-sort/">Bubble Sort</a></td><td>Ω(n)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/insertion-sort/">Insertion Sort</a></td><td>Ω(n)</td><td>θ(n^2)</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/heap-sort/">Heap Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(1)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/quick-sort/">Quick Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a target="_blank" rel="noopener noreferrer nofollow" href="http://geeksquiz.com/merge-sort/">Merge Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/bucket-sort-2/">Bucket Sort</a></td><td>Ω(n +k)</td><td>θ(n +k)</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/radix-sort/">Radix Sort</a></td><td>Ω(nk)</td><td>θ(nk)</td><td>O(nk)</td><td>O(n + k)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/counting-sort/">Count Sort</a></td><td>Ω(n +k)</td><td>θ(n +k)</td><td>O(n +k)</td><td>O(k)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/shellsort/">Shell Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(1)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/timsort/">Tim Sort</a></td><td>Ω(n)</td><td>θ(n log(n))</td><td>O(n log (n))</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/tree-sort/">Tree Sort</a></td><td>Ω(n log(n))</td><td>θ(n log(n))</td><td>O(n^2)</td><td>O(n)</td></tr><tr><td><a href="https://www.geeksforgeeks.org/sort-the-array-according-to-their-cubes-of-each-element/">Cube Sort</a></td><td>Ω(n)</td><td>θ(n log(n))</td><td>O(n log(n))</td><td>O(n)</td></tr></tbody></table>
