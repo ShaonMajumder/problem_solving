@@ -102,6 +102,7 @@ M https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly
 M https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
 E https://leetcode.com/problems/most-frequent-even-element/
 E https://leetcode.com/problems/majority-element-ii/
+E https://leetcode.com/problems/remove-element/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 https://leetcode.com/problems/the-time-when-the-network-becomes-idle/
