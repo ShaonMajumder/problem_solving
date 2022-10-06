@@ -21,7 +21,7 @@ Array
 9. E https://leetcode.com/problems/merge-sorted-array/
 23. Majority Element - E - https://leetcode.com/problems/majority-element/
 24. Plus One - E - https://leetcode.com/problems/plus-one/
-25. 
+25. Move Zeroes - E - https://leetcode.com/problems/move-zeroes/
 
 Binary-Tree - partially touched Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
