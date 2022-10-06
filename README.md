@@ -20,6 +20,8 @@ Array
 8. E array dynamic programming efficient check solution again https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 9. E https://leetcode.com/problems/merge-sorted-array/
 23. Majority Element - E - https://leetcode.com/problems/majority-element/
+24. Plus One - E - https://leetcode.com/problems/plus-one/
+25. 
 
 Binary-Tree - partially touched Recursion
 10. Binary Tree Inorder Traversal - E - https://leetcode.com/problems/binary-tree-inorder-traversal
